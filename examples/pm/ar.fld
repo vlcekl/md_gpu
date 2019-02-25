@@ -1,0 +1,14 @@
+Atomtypes: 1
+1 4096
+Ar    39.948   0.0
+
+VDW_interactions: 1
+1 1  LJ  3.492  0.39
+
+Bond_types: 0
+
+Angle_types: 0
+
+Bonds: 0
+
+Angles: 0

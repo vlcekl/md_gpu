@@ -1,0 +1,7 @@
+ensemble: nvt
+temp: 300
+times: 100000 100000 1000 1.0
+coul: 9.0 1
+alfa: 0.4
+skin: 0.5 1000
+rdel: 0.02

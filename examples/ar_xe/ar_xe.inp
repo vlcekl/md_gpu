@@ -1,0 +1,7 @@
+ensemble: nvt
+temper: 300.0
+times: 10000 10000 1000 1.0
+coul: 15.0 0
+reacf: 1.0
+skin: 0.5 1000
+rdel: 0.02

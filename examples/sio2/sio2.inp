@@ -1,0 +1,6 @@
+ensemble: nve
+times: 2000 2000 100 0.2
+coul: 20.0 0
+reacf: 0.0
+skin: 0.2
+rdel: 0.02

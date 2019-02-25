@@ -1,0 +1,90 @@
+BIN_INDEX	neighborlist_kernel_o.cu	/^#define BIN_INDEX(pos) \\$/
+ConfigFinish	simulation.cu	/^void ConfigFinish(config* conf, ffield* fld, char /
+ConfigInput	simulation.cu	/^config* ConfigInput(char *name, float *mass)$/
+DO_BSPLINE	pme.c	/^#define DO_BSPLINE(order)                         /
+DO_FSPLINE	pme.c	/^#define DO_FSPLINE(order)                      \\$/
+FFieldFinish	simulation.cu	/^void FFieldFinish(ffield* fld)$/
+FFieldInput	simulation.cu	/^ffield* FFieldInput(char *name)$/
+Mathom.cu	athom.cu	/^int main (int argc, char * argv[])$/
+SX	pair_forces_tile.cu	/^#define SX(i) sharedPos[i+blockDim.x*threadIdx.y]$/
+SX_SUM	pair_forces_tile.cu	/^#define SX_SUM(i,j) sharedPos[i+blockDim.x*j]$/
+SimulationFinish	simulation.cu	/^void SimulationFinish(simulation* sim)$/
+SimulationInit	simulation.cu	/^simulation *SimulationInit(char *name_sim)$/
+SimulationRun	simulation.cu	/^void SimulationRun(simulation* sim)$/
+SimulationRun_CUDA	runGPU.cu	/^void SimulationRun_CUDA( params* pars, integr* int/
+WRAP	neighborlist.cu	/^#define WRAP(x,m) (((x)<m)?(x):(x-m))  \/\/ Mod wi/
+angle_forces	bonded_forces.cu	/^__global__ void angle_forces( float4* force, uint4/
+bonded_forces	bonded_forces.cu	/^__global__ void bonded_forces( float4* force, uint/
+calc_idx	pme.c	/^static void calc_idx(gmx_pme_t pme,rvec x[])$/
+calc_recipbox	pme.c	/^static void calc_recipbox(matrix box,matrix recipb/
+checkCUDAError	gpu_properties.cu	/^void checkCUDAError(const char *msg)$/
+chunk	pair_forces_tile.cu	/^\/\/ chunk (and wrap around back to the beginning /
+config_DeviceToHost	config.cu	/^void config_DeviceToHost (config* conf, gpu_config/
+config_HostToDevice	config.cu	/^void config_HostToDevice (config* conf, gpu_config/
+config_finish	config.cu	/^void config_finish( config* conf, gpu_config* g_co/
+config_init	config.cu	/^gpu_config* config_init( config* conf )$/
+csettle	settle.c	/^void csettle(FILE *fp,int nsettle, t_iatom iatoms[/
+csettle_init	settle.c	/^void csettle_init()$/
+dd_pmeredist_f	pme.c	/^static void dd_pmeredist_f(gmx_pme_t pme, pme_atom/
+dd_pmeredist_x_q	pme.c	/^static void dd_pmeredist_x_q(gmx_pme_t pme, int ma/
+forces	forces.cu	/^void forces(gpu_struct* g_prop, gpu_nlist* g_nlist/
+forces_DeviceToHost	forces.cu	/^void forces_DeviceToHost (ffield* fld, gpu_ffield*/
+forces_HostToDevice	forces.cu	/^void forces_HostToDevice (ffield* fld, gpu_ffield*/
+forces_finish	forces.cu	/^void forces_finish(ffield* fld, gpu_ffield* g_fld)/
+gather_f_bsplines	pme.c	/^void gather_f_bsplines(gmx_pme_t pme,t_fftgrid *gr/
+gmx_pme_destroy	pme.c	/^int gmx_pme_destroy(FILE *log,gmx_pme_t *pmedata)$/
+gmx_pme_do	pme.c	/^int gmx_pme_do(gmx_pme_t pme,$/
+gmx_pme_init	pme.c	/^int gmx_pme_init(gmx_pme_t *pmedata,t_commrec *cr,/
+gmx_pmeonly	pme.c	/^int gmx_pmeonly(gmx_pme_t pme,$/
+gmx_sum_qgrid	pme.c	/^void gmx_sum_qgrid(gmx_pme_t gmx,t_commrec *cr,t_f/
+gmx_sum_qgrid_dd	pme.c	/^static void gmx_sum_qgrid_dd(pme_overlap_t *ol,t_f/
+gpu_properties_finish	gpu_properties.cu	/^void gpu_properties_finish( gpu_struct* g_prop )$/
+gpu_properties_init	gpu_properties.cu	/^gpu_struct* gpu_properties_init( config* conf )$/
+init_atomcomm	pme.c	/^static void init_atomcomm(gmx_pme_t pme,pme_atomco/
+init_overlap_comm	pme.c	/^static void init_overlap_comm(gmx_pme_t pme,pme_ov/
+integrate	integrator.cu	/^\/\/ integrate() advances positions and velocities/
+integrate_DeviceToHost	integrator.cu	/^void integrate_DeviceToHost (integr* integ, gpu_in/
+integrate_HostToDevice	integrator.cu	/^void integrate_HostToDevice (integr* integ, gpu_in/
+integrate_finish	integrator.cu	/^void integrate_finish(integr* integ, gpu_integr* g/
+kinetic_energy_and_virial_sum	npt_leapfrog_ber.cu	/^__global__ void kinetic_energy_and_virial_sum( flo/
+kinetic_energy_sum	nvt_leapfrog_ber.cu	/^__global__ void kinetic_energy_sum( float* Ke_sum /
+leapfrog_npt_berendsen	npt_leapfrog_ber.cu	/^__global__ void leapfrog_npt_berendsen( float4 *po/
+leapfrog_nve	nve_leapfrog.cu	/^__global__ void leapfrog_nve( float4 *pos, float4 /
+leapfrog_nvt_berendsen	nvt_leapfrog_ber.cu	/^__global__ void leapfrog_nvt_berendsen( float4 *po/
+lincs	lincs.c	/^lincs(x, xp, invmass, K, nrec, atom1, atom2, lengt/
+make_bspline_moduli	pme.c	/^void make_bspline_moduli(splinevec bsp_mod,int nx,/
+make_bsplines	pme.c	/^void make_bsplines(splinevec theta,splinevec dthet/
+make_dft_mod	pme.c	/^void make_dft_mod(real *mod,real *data,int ndata)$/
+neighborlist	neighborlist.cu	/^void neighborlist(gpu_struct* g_prop, gpu_nlist* g/
+neighborlist_check	neighborlist.cu	/^__global__ void neighborlist_check(float4 *pos, fl/
+neighborlist_finish	neighborlist.cu	/^void neighborlist_finish(gpu_nlist* g_nlist)$/
+neighborlist_init	neighborlist.cu	/^gpu_nlist* neighborlist_init(config* conf, gpu_str/
+neighborlist_nsquared	neighborlist.cu	/^__global__ void neighborlist_nsquared(float4 *pos,/
+neighborlist_nsquared_tile	neighborlist.cu	/^__global__ void neighborlist_nsquared_tile(float4 /
+only	forces.cu	/^\/\/ NVT only (what to do wiht NPT?)$/
+pair_forces	measure.cu	/^void pair_forces( float4 *pos, measure* meas, floa/
+pair_forces_DeviceToHost	pair_forces_tile.cu	/^void pair_forces_DeviceToHost (ffield* fld, gpu_ff/
+pair_forces_HostToDevice	pair_forces_tile.cu	/^void pair_forces_HostToDevice (ffield* fld, gpu_ff/
+pair_forces_finish	pair_forces_tile.cu	/^void pair_forces_finish(ffield* fld, gpu_ffield* g/
+pme_atomcomm_t	pme.c	/^} pme_atomcomm_t;$/
+pme_calc_pidx	pme.c	/^static void pme_calc_pidx(int npmenodes,$/
+pme_dd_sendrecv	pme.c	/^static void pme_dd_sendrecv(pme_atomcomm_t *atc,$/
+pme_grid_comm_t	pme.c	/^} pme_grid_comm_t;$/
+pme_inconvenient_nnodes	pme.c	/^int pme_inconvenient_nnodes(int nkx,int nky,int nn/
+pme_overlap_t	pme.c	/^} pme_overlap_t;$/
+pme_realloc_atomcomm_things	pme.c	/^static void pme_realloc_atomcomm_things(pme_atomco/
+pmeredist	pme.c	/^static void pmeredist(gmx_pme_t pme, bool forw,$/
+pr_grid_dist	pme.c	/^static void pr_grid_dist(FILE *fp,char *title,t_ff/
+print_random_stuff	prints.cu	/^void print_random_stuff( params* pars, integr* int/
+print_statistics	prints.cu	/^void print_statistics( unsigned int cur_timestep, /
+setup_coordinate_communication	pme.c	/^static void setup_coordinate_communication(pme_ato/
+solve	lincs.c	/^solve(xp, invmass, K, nrec, atom1, atom2, ncc, con/
+solve_pme	pme.c	/^real solve_pme(gmx_pme_t pme,t_fftgrid *grid,$/
+spread_on_grid	pme.c	/^static void spread_on_grid(gmx_pme_t pme, pme_atom/
+spread_q_bsplines	pme.c	/^static void spread_q_bsplines(gmx_pme_t pme, pme_a/
+t_gmx_pme	pme.c	/^} t_gmx_pme;$/
+type	integrator.cu	/^__constant__ unsigned int enstype;  \/\/ ensemble /
+update_neighborlist_binned	neighborlist_binned.cu	/^__global__ void update_neighborlist_binned(float4 /
+update_neighborlist_nsquared	neighborlist_binned.cu	/^__global__ void update_neighborlist_nsquared(float/
+x86trunc	pme.c	/^#define x86trunc(a,b) asm("fld %1\\nfistpl %0\\n" /
+xshake	xshake.cu	/^static int xshake(float b4[], float after[], float/

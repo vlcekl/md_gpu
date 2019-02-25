@@ -1,0 +1,10 @@
+ensemble: nvt
+temper: 300.0
+time: 0e0 1e6 1e0
+tprn: 1e0
+rcut: 12.66
+kmax: 5
+skin: 0.3
+rdel: 0.02
+filname: tot
+

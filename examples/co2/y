@@ -1,0 +1,6 @@
+About to run simulation on GPU ...
+block_size: 128
+dimGrid:   (96, 1, 1)
+dimBlock:  (128, 1, 1)
+shareMem:   2048
+abcdef

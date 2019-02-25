@@ -1,0 +1,18 @@
+Atomtypes: 2
+1 2048
+Na    22.98977   1.0
+2 2048
+Cl   35.4527    -1.0
+
+VDW_interactions: 3
+1 1  LJ  3.492    0.5
+1 2  LJ  3.492    0.5
+2 2  LJ  3.492    0.5
+
+Bond_types: 0
+
+Angle_types: 0
+
+Bonds: 0
+
+Angles: 0

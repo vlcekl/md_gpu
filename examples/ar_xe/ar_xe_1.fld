@@ -1,0 +1,18 @@
+Atomtypes: 2
+1 2048
+Ar    39.948   0.0
+2 2048
+Xe   131.3     0.0
+
+VDW_interactions: 3
+1 1  LJ  2.72    0.470
+1 2  LJ  3.065   0.744715
+2 2  LJ  3.41    1.180
+
+Bond_types: 0
+
+Angle_types: 0
+
+Bonds: 0
+
+Angles: 0

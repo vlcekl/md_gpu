@@ -1,0 +1,6 @@
+ensemble: nve
+times: 10000 10000 100 0.2
+cutoff: 15.0 0
+reacf: 78.0
+skin: 1.0 1000
+rdel: 0.02

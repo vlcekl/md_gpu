@@ -1,0 +1,14 @@
+To-do list:
+
+1a) Neighbor list (Aaron)
+1b) Add particle types to the neighbor list (Lukas)
+2a) Bonded interactions input/output data organization (Lukas)
+2b) Bonded particle list based on a simplified neighbor list (Aaron)
+3) Measurement - energy, pair distribution functions, dynamic properties (Lukas)
+3) Sorting algorithm SFCPACK based on: Anderson et al. J. Comp. Phys. 227 (2008) 5342-5359. (Aaron or who has time)
+4) Long-range Coulombic interactions based on the PPPM or maybe traditional Ewald. (Lukas - but this will take longer)
+---------------------------------------------------
+5) Make it more object oriented? ( ? )
+6) Charge dynamics ....
+oo) Everything
+

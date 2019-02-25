@@ -1,0 +1,259 @@
+ # MOLECULES
+           6
+ # Molecule
+           1 spce                surflex                      311
+ # sites
+           2
+ O            1
+   16.e-3      -0.82
+ H            2
+   1.e-3        0.41
+ # constraints
+           2
+  1.0 2318.5
+  1.0 2318.5
+ # angles
+           1
+   191.5        109.47
+ # Molecule
+ 2 li     atmol        5
+ # sites
+  1
+Li   1
+  6.941E-03   1.0
+ # Molecule
+ 3 cl     atmol        5
+ # sites
+  1
+Cl   1
+  35.4527E-03   -1.
+ # Molecule
+ 4 si     atmol        1072
+ # sites
+  1
+Si   1
+  28.0855E-03   2.1
+ # Molecule
+ 5 o     atmol       2117 
+ # sites
+  1
+O   1
+  16.e-3  -1.05000E+00
+ # Molecule
+           6 sioh                 surflex                      54
+ # sites
+           2
+ O            1
+   16.e-3      -0.95
+ H            1
+   1.e-3        0.425    
+ # constraints
+           2
+  1.52 2318.501
+  1.0 2318.501
+ # angles
+           1
+   125.52        109.47
+ & VDW INTERACTIONS
+           1
+           1 spce                O 
+           1 spce                O 
+ LeJo
+ 3.166554 0.65018
+ 
+           2
+           1 spce                O 
+           2 spce                H 
+ zero
+ 
+           3
+           1 spce                O 
+           3 li                  Li
+ LeJo
+ 2.337  0.67
+ 
+           4
+           1 spce                 O
+           4 cl                   Cl 
+ LeJo
+ 3.785 0.5216
+ 
+           5
+           1 spce                O 
+           5 si                  Si
+ LeJo
+ 3.2355 2.2876e-3
+ 
+           6
+           1 spce                O 
+           6 o                   O 
+ LeJo
+ 3.166554 0.65018
+
+           7
+           1 spce                O 
+           7 sioh                O 
+ LeJo
+ 3.166554 0.65018
+
+           8
+           1 spce                O 
+           8 sioh                H 
+ zero
+
+           9
+           2 spce                H 
+           2 spce                 H 
+ zero
+ 
+           10
+           2 spce                H 
+           3 li                  Li
+ zero
+ 
+           11
+           2 spce                H 
+           4 cl                   Cl
+ zero
+ 
+           12
+           2 spce                H 
+           5 si                  Si
+ zero
+ 
+           13
+           2 spce                H 
+           6 o                   O
+ zero
+
+           14
+           2 spce                H 
+           7 sioh                O 
+ zero
+
+           15
+           2 spce                H 
+           8 sioh                H 
+ zero
+
+
+          16
+           3 li                  Li 
+           3 li              Li
+ LeJo
+ 1.505 0.69
+ 
+          17
+           3 li                 Li
+           4 cl               Cl
+ LeJo
+ 2.953 0.5373
+ 
+          18
+           3 li                  Li 
+           5 si              Si
+ LeJo
+ 2.4035   2.3048e-3
+
+          19
+           3 li                 Li
+           6 o               O 
+ LeJo
+ 2.337  0.67
+
+           20
+           3 li                Li
+           7 sioh                O 
+ LeJo
+ 2.337  0.67
+
+           21
+           3 li                Li 
+           8 sioh                H 
+ zero
+ 
+          22
+           4 cl             Cl
+           4 cl              Cl
+ LeJo
+ 4.401 0.4184
+
+          23
+           4 cl                 Cl
+           5 si               Si 
+ LeJo
+ 3.8515 1.8279e-3
+ 
+          24
+           4 cl              Cl
+           6 o              O
+ LeJo
+ 3.785 0.5216
+
+           25
+           4 cl               Cl
+           7 sioh                O 
+ LeJo
+ 3.785 0.5216
+
+           26
+           4 cl               Cl
+           8 sioh                H 
+ zero
+ 
+ 
+          27
+           5 si                  Si 
+           5 si              Si
+ LeJo
+ 3.302 7.9856e-6
+ 
+          28
+           5 si                 Si
+           6 o               O 
+ LeJo
+ 3.2355 2.2876e-3
+
+           29
+           5 si               Si
+           7 sioh                O 
+ LeJo
+ 3.2355 2.2876e-3
+
+           30
+           5 si               Si
+           8 sioh                H 
+ zero
+ 
+          31
+           6 o              O
+           6 o              O
+ LeJo
+ 3.169 0.65018
+
+           32
+           6 o               O
+           7 sioh                O 
+ LeJo
+ 3.169 0.65018
+
+           33
+           6 o               O
+           8 sioh                H 
+ zero
+
+           34
+           7 sioh               O
+           7 sioh                O 
+ LeJo
+ 3.169 0.65018
+
+           35
+           7 sioh               O
+           8 sioh                H 
+ zero
+
+           36
+           8 sioh               H
+           8 sioh                H 
+ zero

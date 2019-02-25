@@ -1,0 +1,7 @@
+ensemble: nvt
+temper: 20.0
+times: 10 10 1 1.0
+cutoff: 13.0 0
+reacf: 0.0
+skin: 0.5 1000
+rdel: 0.02
